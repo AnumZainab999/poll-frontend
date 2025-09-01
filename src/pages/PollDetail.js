@@ -24,7 +24,7 @@ export default function PollDetail() {
   const [comments, setComments] = useState([]);
   const socketRef = useRef(null);
 
-  const socketUrl = 'https://poll-backend-qxux29o0f-anums-projects-9ba48ad6.vercel.app';
+  const socketUrl = 'https://poll-backend-mbe1u750s-anums-projects-9ba48ad6.vercel.app';
 
   // ✅ Safe Local Time Formatter using dayjs
   const formatLocalTime = (dateString) => {

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://poll-backend-qxux29o0f-anums-projects-9ba48ad6.vercel.app/api', 
+  baseURL: 'https://poll-backend-mbe1u750s-anums-projects-9ba48ad6.vercel.app/api', 
   withCredentials: true
 });
 
